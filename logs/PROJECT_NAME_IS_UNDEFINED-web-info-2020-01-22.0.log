@@ -1,0 +1,721 @@
+2020-01-22 10:12:04.646 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 17352 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 10:12:04.652 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 10:12:08.949 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 10:12:08.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 10:12:08.987 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 10:12:08.988 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 10:12:09.229 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 10:12:09.229 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4440 ms
+2020-01-22 10:12:09.406 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 10:12:09.421 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 10:12:11.090 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 10:12:11.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 10:12:11.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 10:12:11.690 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 8.499 seconds (JVM running for 18.44)
+2020-01-22 10:12:16.595 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 10:12:16.597 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 10:12:16.634 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 37 ms
+2020-01-22 10:15:10.267 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 10:15:25.365 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 5916 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 10:15:25.374 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 10:15:28.353 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 10:15:28.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 10:15:28.402 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 10:15:28.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 10:15:28.705 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 10:15:28.705 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3201 ms
+2020-01-22 10:15:28.814 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 10:15:28.820 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 10:15:30.530 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 10:15:31.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 10:15:31.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 10:15:31.124 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 7.667 seconds (JVM running for 16.527)
+2020-01-22 10:15:39.422 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 10:15:39.422 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 10:15:39.438 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2020-01-22 10:15:40.217 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:14:52.214 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 984 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:14:52.221 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:14:55.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:14:56.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:14:56.076 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:14:56.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:14:56.287 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:14:56.287 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3940 ms
+2020-01-22 11:14:56.437 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:14:56.442 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:14:57.868 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:14:58.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:14:58.684 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:14:58.714 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 8.464 seconds (JVM running for 18.372)
+2020-01-22 11:15:12.587 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:15:12.588 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:15:12.609 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2020-01-22 11:15:13.253 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:15:13.253 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:15:13.253 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:15:13.258 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:15:13.258 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:15:14.230 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:19:54.088 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:19:54.090 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:19:54.091 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:19:54.092 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:19:54.092 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:21:35.649 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:21:35.650 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:21:35.650 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:21:35.650 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:21:35.651 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:34:38.472 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:34:38.473 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:34:38.474 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:34:38.475 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:34:38.475 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:34:42.594 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:34:42.630 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 11:35:00.190 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 10796 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:35:00.196 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:35:03.433 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:35:03.649 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:35:03.651 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:35:03.652 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:35:03.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:35:03.884 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3571 ms
+2020-01-22 11:35:04.045 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:35:04.051 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:35:05.355 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:35:06.106 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:35:06.174 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:35:06.188 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 7.746 seconds (JVM running for 16.05)
+2020-01-22 11:35:11.481 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:36:40.909 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 16164 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:36:40.915 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:36:43.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:36:43.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:36:43.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:36:43.876 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:36:44.018 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:36:44.019 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2965 ms
+2020-01-22 11:36:44.162 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:36:44.167 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:36:45.591 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:36:46.426 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:36:46.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:36:46.502 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.948 seconds (JVM running for 14.264)
+2020-01-22 11:37:01.319 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:37:01.320 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:37:01.342 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-01-22 11:37:01.776 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:37:01.777 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:37:01.777 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:37:01.781 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:37:01.782 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:37:51.508 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:38:20.927 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:38:20.927 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:38:20.928 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:38:20.928 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:38:20.928 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:38:32.025 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:38:32.026 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:38:32.027 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:38:32.028 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:38:32.029 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:40:51.911 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:40:51.912 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:40:51.912 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:40:51.913 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:40:51.913 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:46:25.462 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 20764 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:46:25.468 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:46:27.962 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:46:28.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:46:28.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:46:28.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:46:28.292 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:46:28.292 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2709 ms
+2020-01-22 11:46:28.417 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:46:28.422 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:46:29.507 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:46:30.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:46:30.145 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:46:30.155 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 5.976 seconds (JVM running for 14.388)
+2020-01-22 11:46:47.087 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:46:47.088 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:46:47.139 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 51 ms
+2020-01-22 11:46:47.848 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:46:47.848 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:46:47.849 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:46:47.852 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:46:47.852 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:46:48.339 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:46:48.623 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:50:19.244 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 20768 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:50:19.249 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:50:21.751 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:50:21.978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:50:21.979 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:50:21.980 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:50:22.116 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:50:22.116 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2740 ms
+2020-01-22 11:50:22.246 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:50:22.252 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:50:23.344 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:50:23.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:50:23.944 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:50:23.955 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.08 seconds (JVM running for 14.18)
+2020-01-22 11:50:41.594 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:50:41.595 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:50:41.624 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2020-01-22 11:50:42.078 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:50:42.079 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:50:42.081 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:50:42.085 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:50:42.085 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:50:42.535 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:50:42.808 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:51:04.788 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:51:04.801 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 11:51:18.463 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 21344 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:51:18.470 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:51:21.236 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:51:21.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:51:21.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:51:21.461 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:51:21.636 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:51:21.636 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3035 ms
+2020-01-22 11:51:21.775 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:51:21.782 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:51:23.147 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:51:23.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:51:23.912 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:51:23.924 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.737 seconds (JVM running for 15.865)
+2020-01-22 11:51:24.163 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:51:24.164 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:51:24.187 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-01-22 11:51:24.584 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:51:24.584 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:51:24.585 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 127.0.0.1
+2020-01-22 11:51:24.590 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:51:24.590 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:51:37.855 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:51:38.050 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:52:49.741 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 19804 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:52:49.747 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:52:52.294 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:52:52.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:52:52.578 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:52:52.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:52:52.709 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:52:52.710 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2827 ms
+2020-01-22 11:52:52.844 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:52:52.849 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:52:53.967 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:52:54.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:52:54.652 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:52:54.661 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.212 seconds (JVM running for 14.136)
+2020-01-22 11:53:28.035 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:53:28.036 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:53:28.067 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2020-01-22 11:53:28.493 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:53:28.494 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:53:28.494 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:53:28.497 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:53:28.498 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:53:30.449 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:53:30.640 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:53:35.168 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:53:35.185 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 11:54:07.893 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 20600 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:54:07.900 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:54:10.390 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:54:10.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:54:10.608 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:54:10.609 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:54:10.754 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:54:10.754 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2733 ms
+2020-01-22 11:54:10.902 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:54:10.908 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:54:12.091 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:54:12.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:54:12.713 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:54:12.721 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.137 seconds (JVM running for 14.895)
+2020-01-22 11:54:16.646 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:54:16.647 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:54:16.674 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2020-01-22 11:54:17.063 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:54:17.063 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:54:17.064 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 11:54:17.066 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:54:17.067 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:54:17.573 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:54:17.760 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:54:25.103 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:54:25.123 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 11:55:11.318 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 8352 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 11:55:11.323 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 11:55:14.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 11:55:14.345 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:55:14.346 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 11:55:14.347 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 11:55:14.485 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 11:55:14.486 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3037 ms
+2020-01-22 11:55:14.623 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 11:55:14.628 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 11:55:16.133 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:55:16.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 11:55:16.868 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 11:55:16.881 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.806 seconds (JVM running for 14.315)
+2020-01-22 11:55:16.999 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 11:55:16.999 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 11:55:17.020 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-01-22 11:55:17.380 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 11:55:17.380 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 11:55:17.381 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 127.0.0.1
+2020-01-22 11:55:17.384 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 11:55:17.385 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 11:55:17.840 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 11:55:18.114 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 11:55:33.459 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 11:55:33.483 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 12:02:11.463 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 18968 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:02:11.468 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:02:14.165 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:02:14.182 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:02:14.183 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:02:14.184 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:02:14.332 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:02:14.332 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2748 ms
+2020-01-22 12:02:14.489 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:02:14.494 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:02:15.595 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:02:16.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:02:16.300 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 12:02:16.308 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.061 seconds (JVM running for 13.046)
+2020-01-22 12:02:38.668 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 12:02:38.668 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 12:02:38.701 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2020-01-22 12:02:39.065 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 12:02:39.065 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 12:02:39.066 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 12:02:39.069 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 12:02:39.070 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 12:02:39.517 [http-nio-8080-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 12:02:39.720 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 12:18:14.169 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:18:14.512 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 12:22:13.631 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 9460 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:22:13.657 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:22:19.773 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:22:20.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:22:20.054 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:22:20.055 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:22:20.371 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:22:20.371 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6516 ms
+2020-01-22 12:22:20.558 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:22:20.565 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:22:22.824 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:22:23.710 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:22:23.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 12:22:23.784 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 12.696 seconds (JVM running for 21.651)
+2020-01-22 12:22:31.264 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 12:22:31.265 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 12:22:31.289 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2020-01-22 12:22:31.839 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 12:22:31.840 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 12:22:31.840 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 12:22:31.845 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 12:22:31.846 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 12:22:32.581 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 12:22:32.938 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 12:23:00.776 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:23:00.794 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 12:28:28.617 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 10992 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:28:28.622 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:28:31.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:28:31.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:28:31.600 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:28:31.601 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:28:31.808 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:28:31.811 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3078 ms
+2020-01-22 12:28:32.180 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:28:32.189 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:28:36.000 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:28:36.907 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:28:36.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 12:28:36.974 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 9.7 seconds (JVM running for 17.382)
+2020-01-22 12:45:45.317 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 19980 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:45:45.322 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:45:48.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:45:48.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:45:48.503 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:45:48.504 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:45:48.946 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:45:48.946 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3479 ms
+2020-01-22 12:45:49.075 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:45:49.079 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:45:50.451 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:45:51.185 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:45:51.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 12:45:51.258 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 7.833 seconds (JVM running for 16.239)
+2020-01-22 12:46:21.303 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 12:46:21.304 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 12:46:21.330 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2020-01-22 12:46:21.944 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 12:46:21.945 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 12:46:21.945 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 12:46:21.950 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 12:46:21.950 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 12:46:22.669 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 12:46:23.181 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 12:50:55.914 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 6164 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:50:55.920 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:50:58.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:50:58.511 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:50:58.512 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:50:58.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:50:58.642 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:50:58.643 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2611 ms
+2020-01-22 12:50:58.771 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:50:58.776 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:50:59.228 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 12:50:59.281 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 12:55:14.226 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 12200 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:55:14.231 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:55:16.784 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:55:16.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:55:16.997 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:55:16.998 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:55:17.133 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:55:17.133 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2772 ms
+2020-01-22 12:55:17.280 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:55:17.288 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:55:17.731 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 12:55:17.774 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 12:55:58.379 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 8884 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:55:58.386 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:56:01.730 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:56:01.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:56:01.952 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:56:01.952 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:56:02.089 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:56:02.089 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3399 ms
+2020-01-22 12:56:02.231 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:56:02.237 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:56:02.719 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 12:56:02.763 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 12:57:11.792 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 21296 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 12:57:11.797 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 12:57:14.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 12:57:14.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:57:14.447 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 12:57:14.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 12:57:14.579 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 12:57:14.579 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2661 ms
+2020-01-22 12:57:14.710 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 12:57:14.714 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 12:57:15.799 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:57:16.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 12:57:16.488 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 12:57:16.497 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.078 seconds (JVM running for 13.111)
+2020-01-22 12:57:22.766 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 12:57:22.767 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 12:57:22.790 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-01-22 12:57:23.128 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 12:57:23.188 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 12:57:23.188 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 12:57:23.192 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 12:57:23.192 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 12:57:23.596 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 12:57:23.812 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 12:57:29.250 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 12:57:29.265 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 13:00:55.721 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 17680 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:00:55.726 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:01:03.154 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:01:03.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:01:03.372 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:01:03.373 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:01:03.501 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:01:03.501 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7663 ms
+2020-01-22 13:01:03.659 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:01:03.664 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:01:04.797 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:01:05.643 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:01:05.708 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 13:01:05.717 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 11.414 seconds (JVM running for 20.956)
+2020-01-22 13:01:27.894 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 13:01:27.895 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 13:01:27.916 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-01-22 13:01:28.294 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 13:01:28.295 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 13:01:28.295 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 13:01:28.298 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 13:01:28.298 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 13:01:28.721 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 13:01:28.933 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 13:03:13.739 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 13:03:13.741 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 13:03:13.741 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 13:03:13.741 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 13:03:13.742 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 13:03:13.765 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 13:04:10.183 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:04:10.202 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 13:12:29.090 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 18692 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:12:29.098 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:12:31.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:12:31.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:12:31.765 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:12:31.766 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:12:31.896 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:12:31.896 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2665 ms
+2020-01-22 13:12:32.029 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:12:32.034 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:12:32.520 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 13:12:32.590 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 13:13:49.680 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 15668 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:13:49.686 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:13:52.405 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:13:52.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:13:52.425 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:13:52.426 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:13:52.562 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:13:52.562 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2762 ms
+2020-01-22 13:13:52.704 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:13:52.710 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:13:53.163 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 13:13:53.212 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 13:14:20.766 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 17460 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:14:20.773 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:14:24.904 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:14:25.277 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:14:25.278 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:14:25.279 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:14:25.418 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:14:25.419 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4485 ms
+2020-01-22 13:14:25.654 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:14:25.661 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:14:26.563 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-01-22 13:14:26.653 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-22 13:14:58.324 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 20496 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:14:58.338 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:15:02.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:15:02.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:15:02.635 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:15:02.636 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:15:02.800 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:15:02.800 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3909 ms
+2020-01-22 13:15:02.946 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:15:02.951 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:15:04.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:15:05.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:15:05.088 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 13:15:05.100 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 8.155 seconds (JVM running for 16.246)
+2020-01-22 13:15:06.472 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:15:29.992 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 21476 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:15:29.997 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:15:32.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:15:32.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:15:32.675 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:15:32.675 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:15:32.801 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:15:32.802 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2700 ms
+2020-01-22 13:15:32.935 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:15:32.940 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:15:34.206 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:15:34.823 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:15:34.875 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 13:15:34.885 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.56 seconds (JVM running for 13.72)
+2020-01-22 13:15:46.369 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:16:02.315 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 4416 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 13:16:02.322 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 13:16:05.402 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 13:16:05.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:16:05.435 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 13:16:05.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 13:16:05.611 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 13:16:05.618 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3145 ms
+2020-01-22 13:16:05.749 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 13:16:05.753 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 13:16:06.989 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 13:16:07.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 13:16:07.700 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 13:16:07.712 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.744 seconds (JVM running for 14.939)
+2020-01-22 13:16:11.475 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 13:16:11.476 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 13:16:11.500 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2020-01-22 13:16:11.860 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 13:16:11.861 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 13:16:11.861 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 13:16:11.864 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 13:16:11.864 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 13:16:12.300 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 13:16:12.515 [http-nio-8080-exec-2] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 14:33:32.237 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 14:33:32.414 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 14:33:32.416 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 14:33:32.418 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 14:33:32.419 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 14:33:38.253 [http-nio-8080-exec-3] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,1,[]>
+2020-01-22 14:34:00.473 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 8788 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 14:34:00.481 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 14:34:04.605 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 14:34:05.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:34:05.090 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 14:34:05.092 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 14:34:05.324 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 14:34:05.324 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4713 ms
+2020-01-22 14:34:05.642 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 14:34:05.648 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 14:34:07.349 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 14:34:08.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:34:08.353 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 14:34:08.387 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 10.198 seconds (JVM running for 19.114)
+2020-01-22 14:34:15.630 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 14:34:15.631 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 14:34:15.650 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-01-22 14:34:16.155 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company
+2020-01-22 14:34:16.155 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : POST
+2020-01-22 14:34:16.156 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 14:34:16.160 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.saveCompany
+2020-01-22 14:34:16.161 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [UCompany(name=华为, address=深圳)]
+2020-01-22 14:34:16.896 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 14:34:31.040 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 14:34:31.061 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-01-22 14:37:11.763 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 12016 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 14:37:11.768 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 14:37:15.339 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 14:37:15.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:37:15.564 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 14:37:15.565 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 14:37:15.864 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 14:37:15.865 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3940 ms
+2020-01-22 14:37:16.037 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 14:37:16.042 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 14:37:17.411 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 14:37:18.132 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:37:18.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 14:37:18.203 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 7.904 seconds (JVM running for 15.998)
+2020-01-22 14:37:33.874 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 14:37:52.401 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Starting SpringbootDemoApplication on LAPTOP-GS4QGE3T with PID 23276 (D:\eladminweb\springboot_demo\target\classes started by sucx in D:\eladminweb\springboot_demo)
+2020-01-22 14:37:52.408 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - The following profiles are active: test
+2020-01-22 14:37:55.156 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-01-22 14:37:55.369 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:37:55.371 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-22 14:37:55.372 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-22 14:37:55.539 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-22 14:37:55.540 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3015 ms
+2020-01-22 14:37:55.679 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-01-22 14:37:55.684 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-01-22 14:37:56.884 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 14:37:57.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-01-22 14:37:57.604 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-22 14:37:57.612 [main] INFO  com.susu.www.demo.SpringbootDemoApplication - Started SpringbootDemoApplication in 6.526 seconds (JVM running for 15.913)
+2020-01-22 15:56:39.465 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-22 15:56:39.477 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-22 15:56:39.684 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 206 ms
+2020-01-22 15:56:40.377 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/1
+2020-01-22 15:56:40.379 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 15:56:40.407 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 15:56:40.441 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 15:56:40.442 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [1]
+2020-01-22 15:56:42.384 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-01-22 15:56:44.326 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,[]>
+2020-01-22 16:12:44.086 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://localhost:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:12:44.094 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:12:44.096 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 0:0:0:0:0:0:0:1
+2020-01-22 16:12:44.096 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:12:44.097 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:12:44.410 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:15:11.650 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:15:11.656 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:15:11.658 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:15:11.659 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:15:11.660 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:15:11.712 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:15:46.945 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:15:46.946 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:15:46.946 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:15:46.947 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:15:46.948 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:15:46.958 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:18:39.525 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:18:39.525 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:18:39.526 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:18:39.526 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:18:39.526 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:18:39.574 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:22:22.260 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:22:22.263 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:22:22.266 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:22:22.268 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:22:22.268 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:22:22.310 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:22:41.792 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:22:41.793 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:22:41.793 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:22:41.793 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:22:41.793 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:22:41.797 [http-nio-8080-exec-6] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:43:23.084 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:43:23.099 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:43:23.100 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:43:23.101 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:43:23.103 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:43:23.235 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 16:59:26.669 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 16:59:26.677 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 16:59:26.678 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 16:59:26.678 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 16:59:26.678 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 16:59:26.727 [http-nio-8080-exec-9] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:00:35.158 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:00:35.159 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:00:35.163 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:00:35.165 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:00:35.166 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:00:35.237 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:01:38.071 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:01:38.073 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:01:38.073 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:01:38.073 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:01:38.074 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:01:38.140 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:02:51.507 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:02:51.508 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:02:51.509 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:02:51.510 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:02:51.513 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:02:51.568 [http-nio-8080-exec-5] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:03:49.786 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:03:49.789 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:03:49.789 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:03:49.790 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:03:49.790 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:03:49.800 [http-nio-8080-exec-7] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:03:59.810 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:03:59.815 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:03:59.816 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:03:59.816 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:03:59.816 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:03:59.827 [http-nio-8080-exec-8] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-22 17:06:42.895 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-22 17:06:42.896 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-22 17:06:42.896 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-22 17:06:42.896 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-22 17:06:42.896 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-22 17:06:42.922 [http-nio-8080-exec-1] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>

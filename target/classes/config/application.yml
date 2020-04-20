@@ -1,0 +1,21 @@
+# 开发环境配置
+spring:
+  profiles:
+    active: test
+#日志文件配置
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    com:
+      susu:
+        www:
+          demo:
+            mapper: debug
+#mybaits配置
+mybatis:
+  #  扫描数据持久对应的实体类 路径 Package级别
+  #    type-aliases-package:
+  #  mybatis 对应的 .xml文件路径
+  #   mapper-locations: classpath*:com/urthink/upfs/**/*Mapper.xml
+  mapper-locations: classpath:mappers/*.xml,classpath:mappers/**.xml
+  config-location: classpath:mybatis-config.xml

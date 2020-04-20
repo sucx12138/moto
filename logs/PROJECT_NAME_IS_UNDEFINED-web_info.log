@@ -1,0 +1,8 @@
+2020-01-23 09:40:07.569 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - URL : http://10.80.7.94:8080/user/company/0a6707bbe9d54292a29beabbc49191d5
+2020-01-23 09:40:07.585 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - HTTP_METHOD : GET
+2020-01-23 09:40:07.586 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - IP : 10.80.7.94
+2020-01-23 09:40:07.586 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - CLASS_METHOD : com.susu.www.demo.controller.CompanyController.findCompany
+2020-01-23 09:40:07.587 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - REQUEST_ARGS : [0a6707bbe9d54292a29beabbc49191d5]
+2020-01-23 09:40:08.141 [http-nio-8080-exec-4] INFO  com.susu.www.demo.config.aop.ControllerAspect - RESPONSE : <200 OK OK,UCompany(name=华为, address=深圳),[]>
+2020-01-23 09:50:51.535 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 09:50:51.720 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

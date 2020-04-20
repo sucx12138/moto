@@ -1,0 +1,1 @@
+2020-01-23 09:40:07.157 [http-nio-8080-exec-4] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.susu.www.demo.mapper]' package. Please check your configuration.
