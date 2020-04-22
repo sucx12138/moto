@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.susu.www</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>moto</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot_demo</name>
     <description>Demo project for Spring Boot</description>
@@ -25,6 +25,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- 安全框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <!-- myBaits 启动器 -->
         <dependency>

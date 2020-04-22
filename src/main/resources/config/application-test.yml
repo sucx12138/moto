@@ -28,5 +28,9 @@ spring:
     loginPassword: admin123
     urlPatterns:
       - /*
+  security:
+    browser:
+      loginPage: /moto/login.html
+      loginType: JSON
 user:
   dir: D:\log

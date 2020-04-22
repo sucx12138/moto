@@ -5,12 +5,6 @@ spring:
 #日志文件配置
 logging:
   config: classpath:logback-spring.xml
-  level:
-    com:
-      susu:
-        www:
-          demo:
-            mapper: debug
 #mybaits配置
 mybatis:
   #  扫描数据持久对应的实体类 路径 Package级别
