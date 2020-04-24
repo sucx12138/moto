@@ -12,9 +12,9 @@ import org.springframework.data.redis.cache.RedisCacheConfiguration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import java.time.Duration;
+import java.util.Arrays;
 
 /**
  * @author sucx
@@ -60,8 +60,6 @@ public class RedisConfiguration extends CachingConfigurerSupport {
         // 全局开启AutoType，这里方便开发，使用全局的方式
         ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
 
-        // 全局开启AutoType，不建议使用
-        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         // key的序列化采用StringRedisSerializer
         template.setKeySerializer(new StringRedisSerializer());
         template.setHashKeySerializer(new StringRedisSerializer());
@@ -75,6 +73,15 @@ public class RedisConfiguration extends CachingConfigurerSupport {
     @Bean
     @Override
     public KeyGenerator keyGenerator() {
-        return (target, method, params) -> target.getClass().getName() + ":" + method.getName() + ":" + params.toString();
+        return (target, method, params) -> {
+            StringBuilder builder = new StringBuilder();
+            // 类地址
+            builder.append(target.getClass().getSimpleName());
+            // 方法名称
+            builder.append(method.getName());
+            // 参数列表
+            Arrays.asList(params).forEach(item -> builder.append(item.hashCode()));
+            return builder.toString();
+        };
     }
 }
