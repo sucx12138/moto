@@ -1,4 +1,4 @@
-package com.soft.moto.config;
+package com.soft.moto.config.database;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

@@ -45,6 +45,17 @@
           su.status = '1'
           AND su.id = #{value,jdbcType=VARCHAR}
   </select>
+
+  <select id="selectRoleList" resultType="com.soft.moto.model.Role">
+    select
+    <include refid="Base_Column_List" />
+    from s_role
+    <where>
+      <if test="name != null and name != ''">
+        name = #{name,jdbcType=VARCHAR}
+      </if>
+    </where>
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
     delete from s_role
     where ID = #{id,jdbcType=VARCHAR}

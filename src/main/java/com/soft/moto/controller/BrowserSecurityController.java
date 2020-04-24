@@ -1,6 +1,6 @@
 package com.soft.moto.controller;
 
-import com.soft.moto.common.model.SimpleResponse;
+import com.soft.moto.common.model.ResponseModel;
 import com.soft.moto.common.utils.Constants;
 import com.soft.moto.config.properties.SecurityProperties;
 import lombok.extern.slf4j.Slf4j;
@@ -51,7 +51,7 @@ public class BrowserSecurityController {
      * 当需要身份认证时 跳转到这里
      */
     @RequestMapping("/authentication/require")
-    public SimpleResponse requireAuthentication(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public ResponseModel requireAuthentication(HttpServletRequest request, HttpServletResponse response) throws IOException {
         //拿到请求对象
         SavedRequest savedRequest = requestCache.getRequest(request, response);
         if (savedRequest != null){
@@ -65,6 +65,6 @@ public class BrowserSecurityController {
             }
         }
         //如果不是，返回一个json 字符串
-        return new SimpleResponse("访问的服务需要身份认证，请引导用户到登录页");
+        return  ResponseModel.fail("访问的服务需要身份认证，请引导用户到登录页");
     }
 }

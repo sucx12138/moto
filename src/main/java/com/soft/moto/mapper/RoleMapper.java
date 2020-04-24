@@ -3,6 +3,7 @@ package com.soft.moto.mapper;
 import com.soft.moto.model.Role;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -58,4 +59,11 @@ public interface RoleMapper {
      * @return
      */
     int updateByPrimaryKey(Role record);
+
+    /**
+     * 组合条件查询角色列表
+     * @param role
+     * @return
+     */
+    List<Role> selectRoleList(Role role);
 }

@@ -1,6 +1,5 @@
-package com.soft.moto.config;
+package com.soft.moto.config.security;
 
-import com.soft.moto.config.security.UserDetailsServiceImpl;
 import com.soft.moto.config.properties.SecurityProperties;
 import com.soft.moto.config.security.handler.MyAuthenticationFailureHandler;
 import com.soft.moto.config.security.handler.MyAuthenticationSuccessHandler;
@@ -8,18 +7,21 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
+ * @EnableGlobalMethodSecurity 注解开启全局方法授权
  * @author sucx
  * @projectName moto
  * @description: Security权限控制配置
  * @date 2020/4/2115:11
  */
 @Configuration
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class BrowserSecurityConfiguration extends WebSecurityConfigurerAdapter {
     /**
      * 重写PasswordEncoder  接口中的方法，实例化加密策略
